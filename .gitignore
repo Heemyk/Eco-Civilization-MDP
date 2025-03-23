@@ -1,0 +1,100 @@
+# Environment and configuration
+.env
+.venv
+env/
+venv/
+ENV/
+.python-version
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Logs and databases
+*.log
+game_log_*
+*.sqlite
+*.db
+mongodb/
+
+# Model checkpoints and training data
+checkpoints/
+runs/
+*.pt
+*.pth
+*.ckpt
+*.h5
+wandb/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Documentation
+docs/_build/
+site/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Project specific
+# Game state and replay files
+replays/
+states/
+
+# Generated files
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Temporary files
+tmp/
+temp/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Large media files
+*.mp4
+*.tiff
+*.avi
+*.flv
+*.mov
+*.wmv
+
+# OpenAI API key file
+openai.key
+
+# MongoDB data directory
+data/db/
+
+# Experiment results
+results/
+outputs/

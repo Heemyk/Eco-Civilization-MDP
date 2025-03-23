@@ -1,3 +1,4 @@
+# Environment dependencies
 numpy
 pettingzoo
 gymnasium
@@ -5,3 +6,22 @@ pygame
 torch
 scipy
 jax
+
+# LLM and agent dependencies
+langchain>=0.0.300
+openai>=1.0.0
+python-dotenv>=1.0.0
+pymongo>=4.5.0
+pydantic>=2.0.0
+aiohttp>=3.8.0
+typing-extensions>=4.5.0
+
+# Async support
+asyncio>=3.4.3
+
+# Vector database
+chromadb>=0.4.0  # Optional: for more sophisticated vector storage
+tiktoken>=0.5.0  # For token counting with OpenAI models
+
+# Logging and monitoring
+rich>=13.0.0  # For better console output
