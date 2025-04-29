@@ -2,7 +2,6 @@
 .env
 .venv
 venv/
-ENV/
 .python-version
 *.pyc
 __pycache__/
